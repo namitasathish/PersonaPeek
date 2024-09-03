@@ -1,6 +1,7 @@
 # PersonaPeek
 
-This is a Personality Type Predictor based on the Myers And Briggs Test that uses Natural Language Processing (NLP) techniques to determine a personality type based on responses. This uses a dataset of personality type posts and calculates the similarity between user responses and the dataset to predict the most likely personality type.
+- This is a Personality Type Predictor based on the Myers And Briggs Test that uses Natural Language Processing (NLP) techniques to determine a personality type based on responses.
+- Uses a dataset of personality type posts and calculates the similarity between user responses and the dataset to predict the most likely personality type.
 
 
 ## Features
