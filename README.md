@@ -14,3 +14,8 @@ The dataset used in this project is a CSV file *(MBTI 500.csv)* that contains tw
 
 - **posts:** Contains long sentences or paragraphs with information related to personality types
 - **type:** Contains the corresponding personality types (e.g., ENTJ, INTJ)
+## How It Works
+**User Input:** The script asks the user a series of questions, and the user selects their preferred options.
+**Text Processing:** The user's responses are combined into a single string, which is then vectorized using TF-IDF (Term Frequency-Inverse Document Frequency).
+**Similarity Calculation:** The vectorized user input is compared with the dataset using Cosine Similarity to find the most similar personality type post.
+**Prediction:** The personality type associated with the most similar post is returned as the user's predicted personality type.
